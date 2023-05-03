@@ -73,22 +73,21 @@
         </div>
       </div>
       <div>
-        <div class="ml-20 bg-slate-0">
+        <div href="/result" class="ml-20 bg-slate-0">
           <img src="timer.svg" class="mt-5 ml-16" alt="SPADOMA timer" />
         </div>
-        <div class="flex bg-teal-100">
-          <div class="text-center">
+        <div class="-mt-10 ml-10 flex bg-teal-0">
+          <div class="ml-36 mr-80 text-center">
             <Button
-              href="/loading"
-              class="py-3 px-5 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
-              >Submit</Button
+              href="/analysis"
+              class="py-3 px-5 mt-16 text-xl font-medium bg-teal-500 hover:bg-teal-400"
+              >Retry</Button
             >
           </div>
-          <div class="text-center">
+          <div class="ml-96 text-center">
             <Button
-              href="/loading"
               class="py-3 px-5 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
-              >Submit</Button
+              >Save as...</Button
             >
           </div>
         </div>

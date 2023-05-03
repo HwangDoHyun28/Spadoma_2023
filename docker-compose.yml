@@ -1,0 +1,38 @@
+version: "3"
+services:
+  fastapi:
+    depends_on:
+      - database
+      - redis
+    build: ./backend
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
+    ports:
+      - 0.0.0.0:9011:8080
+    environment:
+      POSTGRES_DB: "webapp"
+      POSTGRES_USER: "webapp"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+      POSTGRES_HOST: "database"
+      REDIS_HOST: "redis"
+  celery:
+    depends_on:
+      - database
+      - redis
+    build: ./backend
+    command: celery -A app.celery_app worker
+    environment:
+      POSTGRES_DB: "webapp"
+      POSTGRES_USER: "webapp"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+      POSTGRES_HOST: "database"
+      REDIS_HOST: "redis"
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "webapp"
+      POSTGRES_USER: "webapp"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+    volumes:
+      - "./data/postgres:/var/lib/postgresql/data:rw"
+  redis:
+    image: redis:latest
