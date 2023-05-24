@@ -19,9 +19,11 @@
       Enjoy the coolness of SPADOMA!
     </p>
   </div>
-  <img
+  <div>
+    <img
     src="aboutfig.svg"
     class="mt-10 place-content-center"
     alt="SPADOMA Logo"
   />
+  </div>
 </div>

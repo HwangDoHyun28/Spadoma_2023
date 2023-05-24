@@ -1,5 +1,7 @@
-from fastapi import FastAPI
-from app.celery_worker import divide
+import json
+from fastapi import FastAPI, Query, File, UploadFile
+from celery_worker import run_inference
+from uuid import uuid4
 from datetime import datetime
 
 from db.database import db_context
@@ -7,6 +9,11 @@ from db.database import db_context
 from db.models import Base, Task
 from db.database import engine
 Base.metadata.create_all(bind=engine)
+
+from backend_utils import FILENAME_STARTING_MOLECULES, all_building_blocks, _mol2image, _mnx_search, _rdb_search
+
+from app.celery_worker import divide
+
 
 app = FastAPI()
 

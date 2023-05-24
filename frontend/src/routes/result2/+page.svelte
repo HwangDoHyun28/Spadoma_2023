@@ -76,15 +76,15 @@
             <div href="/result" class=" shadow-inner mt-10 rounded-md h-[32rem] w-[64rem] text-center ml-20 bg-gray-100">
             <Spinner class="mt-56" size="10" color="white" />
             </div>
-            <div class="-mt-10 ml-20 mr-10 flex bg-teal-100">
-                <div class="ml-32 mr-80 text-center bg-teal-400">
+            <div class="-mt-10 flex bg-teal-0">
+                <div class="ml-32 mr-80 text-right bg-teal-0">
                     <Button
                     href="/analysis"
                     class="py-3 px-8 mt-16 text-xl font-medium bg-teal-500 hover:bg-teal-400"
                     >Retry</Button
                     >
                 </div>
-                <div class="ml-96 text-right  font-medium">
+                <div class="ml-96 text-right font-medium">
                     <Button
                     class="py-3 px-8 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
                     >Save</Button

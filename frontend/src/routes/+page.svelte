@@ -7,7 +7,7 @@
 <div class="relative">
   <img
     src="homefig.svg"
-    class="mt-2 ml-16 h-max place-content-center"
+    class="mt-2 ml-3 h-max place-content-center"
     alt="Tutorial Logo"
   />
   <div class="absolute inset-x-1/2 bottom-96">
