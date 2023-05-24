@@ -1,6 +1,6 @@
 <script>
   import { Input, Label, Helper } from "flowbite-svelte";
-  import { Button } from "flowbite-svelte";
+  import { Button, Spinner } from "flowbite-svelte";
   import { Select } from "flowbite-svelte";
   import {
     Table,
@@ -73,23 +73,8 @@
         </div>
       </div>
       <div>
-        <div href="/result" class="ml-20 bg-slate-0">
-          <img src="timer.svg" class="mt-5 ml-16" alt="SPADOMA timer" />
-        </div>
-        <div class="-mt-10 ml-10 flex bg-teal-0">
-          <div class="ml-36 mr-80 text-center">
-            <Button
-              href="/analysis"
-              class="py-3 px-5 mt-16 text-xl font-medium bg-teal-500 hover:bg-teal-400"
-              >Retry</Button
-            >
-          </div>
-          <div class="ml-96 text-center">
-            <Button
-              class="py-3 px-5 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
-              >Save as...</Button
-            >
-          </div>
+        <div href="/result" class=" shadow-inner mt-10 rounded-md h-[32rem] w-[64rem] text-center ml-20 bg-gray-100">
+          <Spinner class="mt-56" size="10" color="white" />
         </div>
       </div>
     </div>

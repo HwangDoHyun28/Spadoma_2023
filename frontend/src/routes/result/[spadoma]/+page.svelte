@@ -1,7 +1,6 @@
 <script>
-  export let data;
   import { Input, Label, Helper } from "flowbite-svelte";
-  import { Button } from "flowbite-svelte";
+  import { Button, Spinner } from "flowbite-svelte";
   import { Select } from "flowbite-svelte";
   import {
     Table,
@@ -34,8 +33,6 @@
     { value: "gist_ncar", name: "gist_ncar" },
   ];
 </script>
-
-{data.task_id}
 
 <div class="rounded-lg border mx-10 px-20 py-10 bg-white">
   <div class="mt-5">
@@ -76,22 +73,21 @@
         </div>
       </div>
       <div>
-        <div class="ml-20 bg-slate-0">
-          <img src="timer.svg" class="mt-5 ml-16" alt="SPADOMA timer" />
+        <div href="/result" class=" shadow-inner mt-10 rounded-md h-[32rem] w-[64rem] text-center ml-20 bg-gray-100">
+          <Spinner class="mt-56" size="10" color="white" />
         </div>
-        <div class="flex bg-teal-100">
-          <div class="text-center">
+        <div class="-mt-10 ml-10 flex bg-teal-0">
+          <div class="ml-32 mr-80 text-center">
             <Button
-              href="/loading"
-              class="py-3 px-5 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
-              >Submit</Button
+              href="/analysis"
+              class="py-3 px-8 mt-16 text-xl font-medium bg-teal-500 hover:bg-teal-400"
+              >Retry</Button
             >
           </div>
-          <div class="text-center">
+          <div class="ml-96 text-center">
             <Button
-              href="/loading"
-              class="py-3 px-5 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
-              >Submit</Button
+              class="py-3 px-8 mt-16 text-xl font-medium bg-yellow-300 hover:bg-yellow-200"
+              >Save</Button
             >
           </div>
         </div>
