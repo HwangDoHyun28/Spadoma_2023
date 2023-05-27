@@ -15,15 +15,25 @@
       existing two-dimensional data, it is a machine learning-based algorithm
       that can be applied to three-dimensional data by considering the z-axis.
     </p>
-    <p class="mt-2 text-teal-500 text-xl font-normal">
+    <p class="mt-2 text-spadoma3 text-xl font-normal">
       Enjoy the coolness of SPADOMA!
     </p>
   </div>
   <div>
     <img
     src="aboutfig.svg"
-    class="mt-10 place-content-center"
+    class="ml-60 mt-16 place-content-center"
     alt="SPADOMA Logo"
   />
+  </div>
+  <div class="mt-16 -mb-10 ml-0 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
+    <Button target="self"
+    href="https://pnucolab.com/"
+    class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
+      <img
+      src="lab_tag.svg"
+      alt="Tutorial Logo"
+    />
+    </Button>
   </div>
 </div>
