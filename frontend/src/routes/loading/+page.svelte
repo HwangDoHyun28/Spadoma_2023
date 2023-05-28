@@ -43,7 +43,7 @@
         <p class="mt-5 text-spadoma3 text-base font-normal">Color Palette</p>
         <Select
           id="dimension"
-          class="w-40 mt-2 text-slate-500 focus:ring-white"
+          class="w-40 mt-2 text-slate-500 border-spadoma1 focus:ring-white focus:border-spadoma1"
           bind:value={selected1}
           placeholder=""
         >
@@ -82,7 +82,7 @@
   <div class="mt-6 -mb-10 ml-0 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
     <Button target="self"
     href="https://pnucolab.com/"
-    class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
+    class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center focus:ring-white">
       <img
       src="lab_tag.svg"
       alt="Tutorial Logo"

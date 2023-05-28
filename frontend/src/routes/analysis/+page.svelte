@@ -14,9 +14,7 @@
     { value: "F", name: "False" },
   ];
 
-  let files;
   let value;
-  let value1;
 
 </script>
 
@@ -34,8 +32,8 @@
       <p class="text-teal-500 text-spadoma3 font-normal mt-2">
         Upload a csv-formatted file containing cell types and coordinates
       </p>
-      <Label class="mt-1 space-y-2 mb-2">
-        <Fileupload class = "opacity-0" bind:value/>
+      <Label class="w-32 mt-1 space-y-2 mb-2">
+        <Fileupload class = "w-32 opacity-0" bind:value/>
       </Label>
       
       
@@ -59,7 +57,7 @@
           </p>
           <Select
             id="dimension"
-            class="mt-2 text-slate-500"
+            class="mt-2 text-slate-500 border-spadoma1 focus:ring-white focus:border-spadoma1"
             bind:value={selected1}
             placeholder=""
           >
@@ -75,7 +73,7 @@
             Number 0f Clusters(1~n)
           </p>
           <Input
-            class="text-slate-400 mt-2"
+            class="text-slate-400 mt-2 border-spadoma1 focus:ring-white focus:border-spadoma1"
             type="number"
             id="last_name"
             placeholder="Write Number"
@@ -83,9 +81,9 @@
           />
         </div>
         <div class="mt-2 text-center">
-          <p class="mx-5 text-spadoma3 text-base font-normal">Merge Threshold(0~1)</p>
+          <p class="-ml-0 mx-5 text-spadoma3 text-base font-normal">Merge Threshold(0~1)</p>
           <Input
-            class="text-slate-500 mt-2"
+            class="text-slate-500 mt-2 border-spadoma1 focus:ring-white focus:border-spadoma1"
             type="number"
             id="last_name"
             placeholder="Write Threshold"
@@ -98,7 +96,7 @@
           </p>
           <Select
             id="remote"
-            class="mt-2 text-slate-500"
+            class="mt-2 text-slate-500 border-spadoma1 focus:ring-white focus:border-spadoma1"
             bind:value={selected2}
             placeholder=""
           >
@@ -112,7 +110,7 @@
         <div class="mx-5 mt-2 text-center">
           <p class="text-spadoma3 text-base font-normal">Norm Threshold(0~1)</p>
           <Input
-            class="text-slate-500 mt-2"
+            class="text-slate-500 mt-2 border-spadoma1 focus:ring-white focus:border-spadoma1"
             type="number"
             id="last_name"
             placeholder="Write Threshold"
@@ -132,7 +130,7 @@
     <div class="mt-20 -mb-10 ml-0 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
       <Button type="submit" target="self"
       href="https://pnucolab.com/"
-      class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
+      class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center focus:ring-white">
         <img
         src="lab_tag.svg"
         alt="Tutorial Logo"

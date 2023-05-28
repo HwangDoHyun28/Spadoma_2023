@@ -22,24 +22,27 @@
     <NavHamburger on:click={toggle} />
     <NavUl {hidden}>
       <NavLi
-        id="home"
+        id=""
         href="/"
-        class="block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 active:text-teal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-slate-300 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+        class="target:text-teal-500 block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 active:text-teal-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-slate-300 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-teal-500 active:text-teal-500"
         >Home</NavLi
       >
       <NavLi
+        id="about"
         href="/about"
-        class="block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+        class="target:text-teal-500 block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-teal-500 active:text-teal-500"
         >About</NavLi
       >
       <NavLi
+        id="tutorial"
         href="/tutorial"
-        class="block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+        class="target:text-teal-500 block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-teal-500 active:text-teal-500"
         >Tutorial</NavLi
       >
       <NavLi
+        id="analysis"
         href="/analysis"
-        class="block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+        class="target:text-teal-500 block py-2 pl-3 pr-4 font-semibold text-base text-spadoma1 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-teal-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-teal-500 active:text-teal-500"
         >Analysis</NavLi
       >
     </NavUl>

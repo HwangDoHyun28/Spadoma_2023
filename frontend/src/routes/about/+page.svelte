@@ -29,7 +29,7 @@
   <div class="mt-16 -mb-10 ml-0 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
     <Button target="self"
     href="https://pnucolab.com/"
-    class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center">
+    class="-mt-96 ml-3 h-max bg-inherit hover:bg-inherit rounded-lg place-content-center focus:ring-white">
       <img
       src="lab_tag.svg"
       alt="Tutorial Logo"
