@@ -43,7 +43,7 @@
         <p class="mt-5 text-spadoma3 text-base font-normal">Color Palette</p>
         <Select
           id="dimension"
-          class="w-40 mt-2 text-slate-500 border-spadoma1 focus:ring-white focus:border-spadoma1"
+          class="w-40 mt-2 text-slate-500 bg-inherit focus:ring-white focus:border-spadoma1"
           bind:value={selected1}
           placeholder=""
         >
@@ -55,19 +55,19 @@
         </Select>
         <div class="flex mt-5">
           <div class="mt-0">
-            <Checkbox class="mb-1 w-5 h-5 checked:bg-yellow-300 focus:ring-white" />
+            <Checkbox class="mb-1 w-5 h-5 bg-inherit checked:bg-yellow-300 focus:ring-white" />
           </div>
           <p class="ml-5 text-teal-500 text-base font-normal">Coordinates</p>
         </div>
         <div class="flex mt-5">
           <div class="mt-0">
-            <Checkbox class="mb-1 w-5 h-5 checked:bg-yellow-300 focus:ring-white" />
+            <Checkbox class="mb-1 w-5 h-5 bg-inherit checked:bg-yellow-300 focus:ring-white" />
           </div>
           <p class="ml-5 text-teal-500 text-base font-normal">Domain</p>
         </div>
         <div class="flex mt-5">
           <div clss="mt-0">
-            <Checkbox class="mb-1 w-5 h-5 checked:bg-yellow-300 focus:ring-white" />
+            <Checkbox class="mb-1 w-5 h-5 bg-inherit checked:bg-yellow-300 focus:ring-white" />
           </div>
           <p class="ml-5 text-teal-500 text-base font-normal">Legend</p>
         </div>

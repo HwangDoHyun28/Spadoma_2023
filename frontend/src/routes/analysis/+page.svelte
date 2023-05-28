@@ -57,7 +57,7 @@
           </p>
           <Select
             id="dimension"
-            class="mt-2 text-slate-500 border-spadoma1 focus:ring-white focus:border-spadoma1"
+            class="mt-2 text-slate-500 bg-inherit focus:ring-white focus:border-spadoma1"
             bind:value={selected1}
             placeholder=""
           >
@@ -73,7 +73,7 @@
             Number 0f Clusters(1~n)
           </p>
           <Input
-            class="text-slate-400 mt-2 border-spadoma1 focus:ring-white focus:border-spadoma1"
+            class="text-slate-400 mt-2 bg-inherit focus:ring-white focus:border-spadoma1"
             type="number"
             id="last_name"
             placeholder="Write Number"
@@ -83,7 +83,7 @@
         <div class="mt-2 text-center">
           <p class="-ml-0 mx-5 text-spadoma3 text-base font-normal">Merge Threshold(0~1)</p>
           <Input
-            class="text-slate-500 mt-2 border-spadoma1 focus:ring-white focus:border-spadoma1"
+            class="text-slate-500 mt-2 bg-inherit focus:ring-white focus:border-spadoma1"
             type="number"
             id="last_name"
             placeholder="Write Threshold"
@@ -96,7 +96,7 @@
           </p>
           <Select
             id="remote"
-            class="mt-2 text-slate-500 border-spadoma1 focus:ring-white focus:border-spadoma1"
+            class="mt-2 text-slate-500 bg-inherit focus:ring-white focus:border-spadoma1"
             bind:value={selected2}
             placeholder=""
           >
@@ -108,9 +108,9 @@
           </Select>
         </div>
         <div class="mx-5 mt-2 text-center">
-          <p class="text-spadoma3 text-base font-normal">Norm Threshold(0~1)</p>
+          <p class="-ml-3 text-spadoma3 text-base font-normal">Norm Threshold(0~1)</p>
           <Input
-            class="text-slate-500 mt-2 border-spadoma1 focus:ring-white focus:border-spadoma1"
+            class="text-teal-500 mt-2 bg-inherit focus:ring-white focus:text-teal-500 focus:border-spadoma1"
             type="number"
             id="last_name"
             placeholder="Write Threshold"
