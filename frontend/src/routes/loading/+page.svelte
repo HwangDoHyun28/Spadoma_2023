@@ -38,7 +38,7 @@
   <div class="mt-5">
     <p class="text-5xl text-teal-600 font-medium my-5">Analysis</p>
     <div class="flex">
-      <div>
+      <div class="pr-20">
         <p class="mt-5 text-3xl text-spadoma4 font-medium">Result</p>
         <p class="mt-5 text-spadoma3 text-base font-normal">Color Palette</p>
         <Select
@@ -72,9 +72,10 @@
           <p class="ml-5 text-teal-500 text-base font-normal">Legend</p>
         </div>
       </div>
-      <div>
-        <div href="/result" class=" shadow-inner mt-10 rounded-md h-[32rem] w-[64rem] text-center ml-10 bg-gray-100">
-          <Spinner class="mt-56" size="10" color="white" />
+      <div href="/result" class=" shadow-inner mt-10 rounded-md h-[32rem] w-[64rem] text-center -mr-0 ml-0 bg-gray-100">
+        <Spinner class="mt-52" size="10" color="white" />
+        <div>
+            <p class="ml-5 mt-2 text-spadoma4 text-xl font-medium">Loading...</p>
         </div>
       </div>
     </div>
