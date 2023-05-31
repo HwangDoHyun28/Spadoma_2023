@@ -45,7 +45,7 @@
         >
       </div>
       <div class="relative top-5 text-center">
-        <Label class="text-slate-300 text-center text-base font-normal px-3 ml-0 mt-0">{value }</Label>
+        <Label class="text-slate-300 text-center text-[16px] font-normal px-3 ml-0 mt-1">{value }</Label>
       </div>
     </div>
     <div>
