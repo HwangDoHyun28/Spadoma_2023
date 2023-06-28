@@ -4,10 +4,10 @@
   import { Select } from "flowbite-svelte";
 </script>
 
-<div class="relative px-8">
+<div class="relative  place-content-center ">
   <img
     src="homefig.svg"
-    class="mt-0 ml-1 h-max place-content-center"
+  class="mt-0 ml-1 h-max place-content-center"
     alt="Tutorial Logo"
   />
   <div class="place-content-center absolute inset-x-1/2 bottom-96">
